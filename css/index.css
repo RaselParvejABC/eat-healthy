@@ -12,6 +12,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #575757;
+  text-align: center;
 }
 
 body {
@@ -87,4 +88,41 @@ header > .flex-item:nth-child(2) {
   background-position: center center;
   background-size: 90% auto;
   align-content: top;
+}
+
+/* About Me Section */
+section#about-me-section {
+  padding: 5% 10%;
+  background-image: url("../assets/images/shapes/7.png");
+  background-size: cover;
+  position: relative; /*For Image below*/
+}
+
+section#about-me-section .flex-item {
+  width: 45%;
+}
+
+section#about-me-section .flex-item:nth-child(2) {
+  position: relative; /*For Button below*/
+}
+
+section#about-me-section .flex-item:nth-child(1) img {
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  width: 50%;
+}
+
+section#about-me-section .flex-item p {
+  margin-bottom: 10%;
+}
+
+/* My Recipies Section */
+
+#my-recipies-section {
+  padding: 0 10%;
+}
+
+#my-recipies-section > div > p {
+  width: 60%;
 }
