@@ -43,6 +43,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+.box-shadow {
+  box-shadow: 2px 2px 2px 2px #aaaaaa;
+}
+
 /* Header */
 header {
   padding: 50px 150px;
@@ -50,8 +54,9 @@ header {
 }
 
 header .flex-item:nth-child(1) {
-  align-self: center;
   width: 60%;
+  align-self: center;
+  text-align: left;
 }
 
 .orange-text {
@@ -121,8 +126,65 @@ section#about-me-section .flex-item p {
 
 #my-recipies-section {
   padding: 0 10%;
+  padding-bottom: 3%;
 }
 
 #my-recipies-section > div > p {
-  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#recipe-cards {
+  justify-content: space-around;
+}
+
+.recipe-card {
+  width: 45%;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+.recipe-card img {
+  width: 100%;
+}
+
+/* Statistics Section */
+
+#stat-section {
+  margin-top: 3%;
+  justify-content: center;
+}
+
+#stat-cards {
+  width: 70%;
+}
+
+.stat-card {
+  width: 30%;
+}
+
+.stat-card h1 {
+  margin-bottom: 0;
+  color: black;
+}
+
+.stat-card p {
+  font-size: 14px;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: black;
+  padding: 2% 0;
+  margin-top: 3%;
+}
+
+.gray-text {
+  color: #5b5b5b;
+}
+
+footer p {
+  color: white;
+  font-size: 16px;
 }
