@@ -153,14 +153,18 @@ section#about-me-section .flex-item p {
 #stat-section {
   margin-top: 3%;
   justify-content: center;
+  align-items: center;
 }
 
 #stat-cards {
   width: 70%;
+  padding-bottom: 2%;
 }
 
 .stat-card {
   width: 30%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .stat-card h1 {
@@ -180,11 +184,13 @@ footer {
   margin-top: 3%;
 }
 
-.gray-text {
+footer .gray-text {
+  width: 100%;
   color: #5b5b5b;
 }
 
 footer p {
   color: white;
   font-size: 16px;
+  width: 100%;
 }
